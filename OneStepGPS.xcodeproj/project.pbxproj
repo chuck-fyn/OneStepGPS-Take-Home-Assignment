@@ -35,16 +35,6 @@
 			path = OneStepGPS;
 			sourceTree = "<group>";
 		};
-		1329CB632DB6D9FA00CCD2DE /* OneStepGPSTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OneStepGPSTests;
-			sourceTree = "<group>";
-		};
-		1329CB6D2DB6D9FA00CCD2DE /* OneStepGPSUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OneStepGPSUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				1329CB522DB6D9F900CCD2DE /* OneStepGPS */,
-				1329CB632DB6D9FA00CCD2DE /* OneStepGPSTests */,
-				1329CB6D2DB6D9FA00CCD2DE /* OneStepGPSUITests */,
 				1329CB512DB6D9F900CCD2DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				1329CB622DB6D9FA00CCD2DE /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1329CB632DB6D9FA00CCD2DE /* OneStepGPSTests */,
-			);
 			name = OneStepGPSTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				1329CB6C2DB6D9FA00CCD2DE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1329CB6D2DB6D9FA00CCD2DE /* OneStepGPSUITests */,
 			);
 			name = OneStepGPSUITests;
 			packageProductDependencies = (
@@ -399,6 +381,7 @@
 				DEVELOPMENT_TEAM = 27A6C26J8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OneStepGPS;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +411,7 @@
 				DEVELOPMENT_TEAM = 27A6C26J8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OneStepGPS;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

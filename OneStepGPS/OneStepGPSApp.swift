@@ -2,7 +2,7 @@
 //  OneStepGPSApp.swift
 //  OneStepGPS
 //
-//  Created by Charles Prutting on 4/21/25.
+//  Created by Charles Prutting on 4/20/25.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct OneStepGPSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FleetAppView()
         }
     }
 }
