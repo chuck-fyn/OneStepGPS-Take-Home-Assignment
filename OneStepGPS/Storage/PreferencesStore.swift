@@ -33,7 +33,6 @@ struct UserPreferences: Codable {
     var hiddenDeviceIDs: Set<String> = []
     var sortOrder: SortOrder = .byName
     var mapRefreshInterval: TimeInterval = 30
-    var customDeviceIcons: [String: String] = [:] // deviceID: iconName
     
     enum SortOrder: String, Codable {
         case byName, byStatus, byRecentUpdate
